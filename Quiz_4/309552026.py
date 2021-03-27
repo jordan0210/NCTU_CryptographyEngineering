@@ -1,9 +1,5 @@
-import numpy
 from bitstring import BitArray
-from bitstring import BitStream
 from PIL import Image
-import io
-
 
 def LFSR(tap, seed):
     xor = seed << 1
